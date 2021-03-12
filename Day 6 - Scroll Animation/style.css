@@ -1,0 +1,77 @@
+@font-face {
+    font-family: SFPro;
+    src: url(SFPro.ttf) format('truetype');
+}
+* {
+    font-family: SFPro;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+h1 {
+    margin: 10px;
+}
+
+.box {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgb(0, 0, 0, 0.3);
+    transform: translateX(200%);
+    transition: transform 0.4s ease;
+    overflow-x: hidden;
+}
+
+.box:nth-of-type(even){
+    transform: translateX(-200%);
+}
+
+.box.show {
+    transform:translateX(0);
+}
+
+.box1 {
+    background-image: url("https://images3.alphacoders.com/164/164959.jpg");
+}
+.box2 {
+    background-image: url("https://images3.alphacoders.com/932/932968.jpg");    
+}
+.box3 {
+    background-image: url("https://images2.alphacoders.com/114/114430.jpg");
+}
+.box4 {
+    background-image: url("https://images.alphacoders.com/934/934102.jpg");
+}
+.box5 {
+    background-image: url("https://images5.alphacoders.com/650/650002.jpg");
+}
+.box6 {
+    background-image: url("https://images8.alphacoders.com/643/643491.jpg");
+}
+.box7 {
+    background-image: url("https://images2.alphacoders.com/970/970369.png");
+}
+.box8 {
+    background-image: url("https://images5.alphacoders.com/551/551213.jpg");
+}
+.box9 {
+    background-image: url("https://images3.alphacoders.com/863/863299.jpg");
+}
+.box10 {
+    background-image: url("https://wallpapercave.com/wp/wp3813523.jpg");
+}
+.box11 {
+    background-image: url("https://wallpapercave.com/wp/wp8126306.png");
+}
